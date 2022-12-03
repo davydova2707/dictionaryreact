@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <h1>
+            Hosted with
+            <a href="https://www.netlify.com">Netlify</a>
+          </h1>
+        </header>
+        <main>
+          <Dictionary defaultKeyword="code" />
+        </main>
+        <footer className="App-footer">
+            <a href="https://github.com/davydova2707/dictionaryreact" target="_blank">Open-source code</a> by Olena
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
