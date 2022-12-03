@@ -15,7 +15,7 @@ export default function App() {
           <Dictionary defaultKeyword="code" />
         </main>
         <footer className="App-footer">
-            <a href="https://github.com/davydova2707/dictionaryreact" target="_blank">Open-source code</a> by Olena
+            <a href="https://github.com/davydova2707/dictionaryreact" target="_blank" rel="noreferrer">Open-source code</a> by Olena
         </footer>
       </div>
     </div>
